@@ -1,0 +1,17 @@
+grid_size: [10, 10]
+team_size: 2
+num_episodes: 5000
+max_steps: 200
+gamma: 0.99
+gae_lambda: 0.95
+clip_ratio: 0.2
+value_coef: 0.5
+entropy_coef: 0.05
+ppo_epochs: 4
+lr_actor: 0.0003
+lr_critic: 0.001
+progress_reward_coef: 1.0
+save_every: 500
+log_every: 50
+checkpoint_dir: checkpoints
+log_dir: logs
